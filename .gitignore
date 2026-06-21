@@ -3,8 +3,14 @@ __pycache__/
 *.py[cod]
 *$py.class
 *.egg-info/
+
+# Build / packaging artifacts
 build/
 dist/
+output/
+installer_output/
+*.exe
+*.spec.bak
 
 # Virtual environments
 .venv/
@@ -20,6 +26,10 @@ env/
 *password*.txt
 .env
 .env.*
+
+# Logs
+*_log.txt
+build_log.txt
 
 # OS / Editor files
 .DS_Store
